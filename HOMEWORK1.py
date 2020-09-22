@@ -67,8 +67,7 @@ import time
 import os
 for i in range(0,4):
     os.system('cls')
+    print(s1, end = '\r')
     time.sleep(1)
-    print(s1)
-    time.sleep(1)
-    print(s2)
+    print(s2, end = '\r')
     time.sleep(1)
